@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+      <h3>Please fill up the form for further updates</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required maxlength="20" /><br /><br />
+        <textarea rows="5" placeholder="Address"></textarea><br /><br />
+        Gender:
+        Male: <input type="radio" value="male" name="gender"/>
+        Female: <input type="radio" value="female" name="gender"/>
+        Others: <input type="radio" value="others" name="gender"/><br /><br />
+
+        State:
+        <select>
+          <option selected>Kerala</option>
+          <option>Karnataka</option>
+          <option>Tamilnadu</option>
+          <option>Goa</option>
+        </select><br /><br />
+
+        District:
+        <input type="text" list="districts">
+        <datalist id="districts">
+        <option value="Kasaragod"/>
+        <option value="Kannur"/>
+        <option value="Wayanadu"/>
+        <option value="Kozhikode"/>
+        <option value="Malappuram"/>
+        <option value="Palakkad"/>
+       </datalist><br /><br />
+
+        Languages Known:
+        Malayalam: <input type="checkbox" value="mal" />
+        English: <input type="checkbox" value="eng" checked />
+        Hindi: <input type="checkbox" value="hin" /><br /><br />
+
+        <input type="text" placeholder="Phone No." /><br /><br />
+        Date of Birth: <input type="date" min="2000-01-01" /><br /><br />
+        <input type="email" placeholder="Your email address"/><br /><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <br />Notifications on more updates will be send to your email id. Thank You.
+    </body>
+</html>

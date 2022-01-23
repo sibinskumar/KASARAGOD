@@ -1,0 +1,14 @@
+h1{
+  text-align:center;
+  color:blue;
+}
+p{
+  font:normal normal bold 20px serif ;
+  text-align:justify;
+}
+h2{
+  color:orange;
+}
+th{
+  background-color:#ADD8E6
+}
